@@ -39,7 +39,7 @@ class Project(CommonBlogger):
             first_post_date=datetime(2025, 3, 9),
             #days_to_review=timedelta(2),
             days_between_posts=timedelta(7),
-            image_generator=YandexImageGenerator(folder_id='b1g8kgobin3d1usjbiq8'),
+            image_generator=YandexImageGenerator(),
             #text_generator=OpenAITextGenerator(),
             topic_word_limit=100,
             **kwargs
